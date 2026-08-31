@@ -1,0 +1,10 @@
+{
+  "valid User": {
+    "userName": "developer@techroversolutions.com",
+    "password": "Ibhr@2024"
+  },
+  "invalid User": {
+    "userName": "support@techroversolutions.com",
+    "password": "Ibhr@2024"
+  }
+}
