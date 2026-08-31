@@ -1,6 +1,8 @@
 import { test, expect, Browser, Page, Locator } from "@playwright/test";
 import { webkit, chromium, firefox } from "@playwright/test";
 
+// QA: Verify login functionality with valid credentials
+
 /* login test using the envirement variable */
 
 test("Login test...", async ({ page }) => {
