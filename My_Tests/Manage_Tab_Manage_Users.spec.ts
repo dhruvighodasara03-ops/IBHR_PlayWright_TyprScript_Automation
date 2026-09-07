@@ -11,7 +11,7 @@ test("Manage > Add Users Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -71,7 +71,7 @@ test("Manage > Update Users Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -127,7 +127,7 @@ test("Manage > Delete Users Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -161,7 +161,7 @@ test("Manage > Inline Sorting & Filters Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -206,7 +206,7 @@ test("Manage > Manage Users > Pagination Testing...", async ({ page }) => {
 
   await page.locator("#mat-input-0").fill("developer@techroversolutions.com");
 
-  await page.locator("#mat-input-1").fill("Ibhr@2024");
+  await page.locator("#mat-input-1").fill("IBHR@qa2026");
 
   await page.locator("#login").click();
 

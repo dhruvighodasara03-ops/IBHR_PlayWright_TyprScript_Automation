@@ -4,7 +4,7 @@ import { webkit, chromium, firefox } from "@playwright/test";
 test.beforeEach(async ({ page }) => {
   await page.goto("/login");
   await page.locator("#mat-input-0").fill("developer@techroversolutions.com");
-  await page.locator("#mat-input-1").fill("Ibhr@2024");
+  await page.locator("#mat-input-1").fill("IBHR@qa2026");
   await page.locator("#login").click();
 
   const title = await page.title();

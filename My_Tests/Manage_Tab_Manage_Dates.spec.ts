@@ -11,7 +11,7 @@ test("Manage > Block Dates/Add Block Dates Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -80,7 +80,7 @@ test("Manage > Update/Delete Block Dates Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -144,7 +144,7 @@ test("Manage > Calendar Event/Add Calendar Events Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -233,7 +233,7 @@ test("Manage > Update/Delete Calendar Events Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();

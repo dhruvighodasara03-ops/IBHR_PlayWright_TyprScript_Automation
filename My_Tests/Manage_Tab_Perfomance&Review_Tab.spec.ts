@@ -11,7 +11,7 @@ test("Manage > Perfomance & Review Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -66,7 +66,7 @@ test("Manage > Perfomance & Review > Inline Sorting & Filter Testing...", async 
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -118,7 +118,7 @@ test("Manage > Perfomance & Review > Pagination Testing...", async ({
 
   await page.locator("#mat-input-0").fill("developer@techroversolutions.com");
 
-  await page.locator("#mat-input-1").fill("Ibhr@2024");
+  await page.locator("#mat-input-1").fill("IBHR@qa2026");
 
   await page.locator("#login").click();
 

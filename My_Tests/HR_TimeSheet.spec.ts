@@ -12,7 +12,7 @@ test("HR > TimeSheet Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -117,7 +117,7 @@ test("HR > TimeSheet Inline Sorting & Filter Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -156,7 +156,7 @@ test("HR > TimeSheet > Week Select Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -191,7 +191,7 @@ test("HR > Timesheet > Pagination Testing...", async ({ page }) => {
 
   await page.locator("#mat-input-0").fill("developer@techroversolutions.com");
 
-  await page.locator("#mat-input-1").fill("Ibhr@2024");
+  await page.locator("#mat-input-1").fill("IBHR@qa2026");
 
   await page.locator("#login").click();
 

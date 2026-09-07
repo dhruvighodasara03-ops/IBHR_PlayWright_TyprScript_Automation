@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
   await page
     .locator('[formcontrolname="email"]')
     .fill("developer@techroversolutions.com");
-  await page.locator('[formcontrolname="password"]').fill("Ibhr@2024");
+  await page.locator('[formcontrolname="password"]').fill("IBHR@qa2026");
   await page.getByRole("button", { name: "LOGIN" }).click();
 
   const title = await page.title();

@@ -13,7 +13,7 @@ test(" Notification Slider Testing", async ({ page }) => {
   const loginpage = new LoginPage(page);
 
   await loginpage.gotoLoginPage();
-  await loginpage.login("developer@techroversolutions.com", "Ibhr@2024");
+  await loginpage.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   // open notification sllider
   await page.locator('img[src*="notification_icon.svg"]').click();

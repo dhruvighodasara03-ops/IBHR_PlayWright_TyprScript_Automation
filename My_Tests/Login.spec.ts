@@ -10,7 +10,7 @@ test("Login test...", async ({ page }) => {
   // Example terminal command (PowerShell):
   //   $env:EMAIL="your_email@example.com"; $env:PASSWORD="your_password"; npx playwright test My_Tests/Login.spec.ts --headed
   const email = process.env.EMAIL || "developer@techroversolutions.com";
-  const password = process.env.PASSWORD || "Ibhr@2024";
+  const password = process.env.PASSWORD || "IBHR@qa2026";
 
   console.log(`Logging in with email: ${email}`);
 
@@ -42,7 +42,7 @@ test("Login test using static data ", async ({ page }) => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -62,7 +62,7 @@ test("login test", async ({ page }) => {
   const loginpage = new LoginPage(page);
 
   await loginpage.gotoLoginPage();
-  await loginpage.login("developer@techroversolutions.com", "Ibhr@2024");
+  await loginpage.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   await page.waitForTimeout(5000);
 });

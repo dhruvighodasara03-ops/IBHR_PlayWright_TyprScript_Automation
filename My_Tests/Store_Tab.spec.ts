@@ -15,7 +15,7 @@ test.beforeEach(async ({ page }) => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 });
 
@@ -29,7 +29,7 @@ test("Add Store Testing", async ({ page }) => {
   // const loginbutton: Locator = page.locator("#login");
 
   // await emailid.fill("developer@techroversolutions.com");
-  // await password.fill("Ibhr@2024");
+  // await password.fill("IBHR@qa2026");
   // await loginbutton.click();
 
   const title = await page.title();
@@ -171,7 +171,7 @@ test("Update Store Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -323,7 +323,7 @@ test("Store > Inline Sorting & Filter Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -370,7 +370,7 @@ test("Add Store Budget Testing", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -429,7 +429,7 @@ test("Update Store Budget Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -471,7 +471,7 @@ test("Store > Pagination Testing...", async ({ page }) => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();

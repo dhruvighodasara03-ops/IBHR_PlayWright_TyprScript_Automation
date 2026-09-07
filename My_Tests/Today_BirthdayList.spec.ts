@@ -7,7 +7,7 @@ test("Today Birthday List Testing...", async ({ page }) => {
 
   // login
   loginpage.gotoLoginPage();
-  loginpage.login("developer@techroversolutions.com", "Ibhr@2024");
+  loginpage.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   // navigate to the Today BirthdayList Page
   await page.locator('img[src*="birthday-cake-emoji.png"]').click();

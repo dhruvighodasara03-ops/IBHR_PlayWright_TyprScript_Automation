@@ -13,7 +13,7 @@ test("HR Update Rejected Employee Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -212,7 +212,7 @@ test("HR > Rejected > Inline Filter & Sorting Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -268,7 +268,7 @@ test("HR > Rejected > Pagination Testing...", async ({ page }) => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -365,7 +365,7 @@ test(" rejected employee > edit usng POM", async ({ page }) => {
   const rejected = new RejectedPages(page);
 
   await login.gotoLoginPage();
-  await login.login("developer@techroversolutions.com", "Ibhr@2024");
+  await login.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   await rejected.hrmenu();
   await rejected.reject();

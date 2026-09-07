@@ -11,7 +11,7 @@ test("HR Master/Edit Employee Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -248,7 +248,7 @@ test("HR > Master > Store Transfer Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -358,7 +358,7 @@ test("HR > Master > Payment Changes Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -465,7 +465,7 @@ test("HR > Master > Resign Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -502,7 +502,7 @@ test("HR > Master > Add Debt Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -635,7 +635,7 @@ test("HR > Master > Edit Debt Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -762,7 +762,7 @@ test("HR > Master > Receive Installment Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -853,7 +853,7 @@ test("HR > Master > Apply Leave Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -962,7 +962,7 @@ test("HR > Master > Add Entity & Pay Rate Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -1094,7 +1094,7 @@ test("HR > Master > Inline Filter & Sorting Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -1176,7 +1176,7 @@ test("HR > Master > Pagination Testing....", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -1277,7 +1277,7 @@ test("HR > Master > Store Transfer Testing", async ({ page }) => {
 
   await login.gotoLoginPage();
 
-  await login.login("developer@techroversolutions.com", "Ibhr@2024");
+  await login.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   await master.openMaster();
 
@@ -1319,7 +1319,7 @@ test("HR > Master > Payment Changes Testing....", async ({ page }) => {
 
   // Login
   await login.gotoLoginPage();
-  await login.login("developer@techroversolutions.com", "Ibhr@2024");
+  await login.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   // Verify Dashboard
   await expect(page).toHaveTitle("IBHR");
@@ -1376,7 +1376,7 @@ test("HR > Master > Resign Testing....", async ({ page }) => {
   // Login
   await login.gotoLoginPage();
 
-  await login.login("developer@techroversolutions.com", "Ibhr@2024");
+  await login.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   // Verify Dashboard
   await expect(page).toHaveTitle("IBHR");

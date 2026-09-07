@@ -21,7 +21,7 @@ test("HR Tab Add Employee Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   await expect(page).toHaveTitle("IBHR");
@@ -194,7 +194,7 @@ test("HR Tab Update Employee Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -358,7 +358,7 @@ test("HR Tab Delete Employee Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -390,7 +390,7 @@ test("HR Tab Onboard New Hire Employee Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -673,7 +673,7 @@ test("HR > New Hire > Inline Filter & Sorting Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -747,7 +747,7 @@ test("HR > New Hire > Pagination Testing...", async () => {
   const loginbutton: Locator = page.locator("#login");
 
   await emailid.fill("developer@techroversolutions.com");
-  await password.fill("Ibhr@2024");
+  await password.fill("IBHR@qa2026");
   await loginbutton.click();
 
   const title = await page.title();
@@ -844,7 +844,7 @@ test(" Add new hire using the POM...", async ({ page }) => {
   const newhire = new NewHirePage(page);
 
   await login.gotoLoginPage();
-  await login.login("developer@techroversolutions.com", "Ibhr@2024");
+  await login.login("developer@techroversolutions.com", "IBHR@qa2026");
 
   await newhire.hrmenu();
   await newhire.addbutton();
